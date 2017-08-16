@@ -14,21 +14,21 @@ class BillingCycleForm extends Component {
                         name='name' 
                         component={labelAndInput}
                         label='Nome'
-                        col='12 4'
+                        cols='12 4'
                         placeholder='Informe o nome'
                     />
                     <Field 
                         name='month' 
                         component={labelAndInput}
                         label='Mês'
-                        col='12 4'
+                        cols='12 4'
                         placeholder='Informe o Mês'
                     />
                     <Field 
                         name='year' 
                         component={labelAndInput}
                         label='Ano'
-                        col='12 4'
+                        cols='12 4'
                         placeholder='Informe o Ano'
                     />
                 </div>
